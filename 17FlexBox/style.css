@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /*align-items: flex-end;
+    align-items: flex-start;
+    align-items: stretch;
+    align-items: baseline;*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: chartreuse;
+}
+.box2{
+    background-color: chocolate;
+}
+.box3{
+    background-color: coral;
+}
+.box4{
+    background-color: cornflowerblue;
+}
+.box5{
+    background-color: blueviolet;
+}
+.box6{
+    background-color: crimson;
+}
