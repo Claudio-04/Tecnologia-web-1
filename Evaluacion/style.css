@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+
+}
+   .container__1{
+    background-color: aqua;
+    height: 50vh;
+    background-image: url(../Imagenes/pexels-archie-binamira-689451\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.container__1--cabezal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+.container__nav--item{
+    margin-top: 5px;
+    list-style: none;
+    padding-left: 0;
+    /* display: flex;
+    justify-content: start; */
+}
+.main__nav--item{
+    display: flex;
+    justify-content: start;
+    display: inline-block;
+    
+}
+.main__nav--item a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.main__nav--item a:hover{
+    color: tomato;
+    font-size: 10px;
+}
+.main__nav--item a:active{
+    color: green;
+}
+.main__nav--item a::after{
+    content: " | ";
+}
+.container__1--medio{
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.perro{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+   .container__2{
+    color: aliceblue;
+    background-color: #1f2233;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.container__2--im{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.perro2{
+    height: 150px;
+    width: 150px;
+}
+.container__2--txt{
+    display: flex;
+    flex-direction: column;
+}
+
+    .container__3{
+    background-color: #25273e;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+} 
