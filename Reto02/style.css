@@ -4,5 +4,36 @@
     padding: 0;
 }
 html{
-    font-size: 65.5;
+    font-size: 62.5%;
+}
+
+.container{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+.container__header{
+    background-color: blueviolet;
+   height: 30rem;
+}
+.container__header--cabecera{
+    background-color: brown;
+    height: 12rem;
+    display: flex;
+    gap: 2rem;
+}
+.container__header--cabecera article{
+    background-color: cadetblue;
+    /*border-radius: 5rem;*/
+    width: 30rem;
+}
+.container__header--parrafo{
+    background-color: chartreuse;
+    height: 15rem;
+
+}
+.container__header--enlaces{
+    background-color: coral;
+    height: 51.5rem;
 }
